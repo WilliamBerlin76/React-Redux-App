@@ -9,7 +9,7 @@ const initialState = {
 const reducer = (state = initialState, action) => {
     switch(action.type){
         case START_FETCHING:
-            console.log(action.payload)
+            
             return {
                 ...state,
                 isFetching: true,

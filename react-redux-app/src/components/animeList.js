@@ -10,13 +10,19 @@ const AnimeList = (props) => {
     }, [])
     
     return(
-        <>
+        <div className="cards-container">
         {props.anime.map(item => {
             return(
-            <h3>{item.title}</h3>
+            <div className="episode-card" key={item.episode_id}>   
+                <h4>Episode {item.episode_id} 
+                    <h3>{item.title}</h3>
+                </h4>
+                <p>Japanese Title: {item.title_japanese}</p>
+                {item.filler === false ? <p>filler: ❌</p> : <p>filler: ✔</p>}
+            </div> 
             )
         })}
-        </>
+        </div>
     )
 };
 
