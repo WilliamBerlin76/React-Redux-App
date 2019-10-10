@@ -6,7 +6,7 @@ import AnimeList from './components/animeList'
 function App() {
   return (
     <div className="App">
-      <h1>Anime Filler List!</h1>
+      <h1>Naruto Filler List!</h1>
       <AnimeList />
     </div>
   );

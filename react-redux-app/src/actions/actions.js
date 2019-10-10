@@ -9,7 +9,7 @@ export const fetchAnime = () => dispatch => {
     dispatch({ type: START_FETCHING });
 
     axios
-    .get('https://api.jikan.moe/v3/anime/1/episodes')
+    .get('https://api.jikan.moe/v3/anime/20/episodes')
     .then(res => {
         console.log(res)
         dispatch({ type: FETCH_SUCCESS, payload: res.data.episodes})
