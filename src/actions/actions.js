@@ -3,9 +3,11 @@ import axios from 'axios'
 export const START_FETCHING = 'START_FETCHING';
 export const FETCH_SUCCESS = 'FETCH_SUCCESS';
 export const FETCH_FAILURE = 'FETCH_FAILURE';
+
 export const START_FETCHING2 = 'START_FETCHING2';
 export const FETCH_SUCCESS2 = 'FETCH_SUCCESS2';
 export const FETCH_FAILURE2 = 'FETCH_FAILURE2';
+
 export const START_FETCHING3 = 'START_FETCHING3';
 export const FETCH_SUCCESS3 = 'FETCH_SUCCESS3';
 export const FETCH_FAILURE3 = 'FETCH_FAILURE3';
