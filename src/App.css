@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+html{
+  background:rgb(222, 223, 238)
+}
+.cards-container{
+  margin: 0 auto;
+  width: 75%;
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.episode-card{
+  text-align: center;
+  width: 45%;
+  color: #dfcbe2;
+  background: #681e73;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
